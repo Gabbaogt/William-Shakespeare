@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkgrey;
+}
+
+.menu h3{
+    display: inline-block;
+    padding-left: 0%;
+    margin: 0%;
+}
+
+.menu {
+    text-align: center;
+    background-color: azure;
+}
+
+.menu a, h3{
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 149, 149,0.3);
+    color: rgb(10, 10, 10);
+}
+
+/*lado esquerdo*/
+section#ladoesquerdo {
+    display: block;
+    float: left;
+    width: 600px;
+    margin: 50px 15px 15px 15px;
+}
+
+section#ladoesquerdo h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+section#ladoesquerdo img {
+    margin: 0 0 0 30vh;
+    border-radius: 20% 20% 20% 20%;
+    box-shadow: 3px 4px 1px #615d5d;
+    width: auto;
+    height: auto;
+
+}
+
+div.conteudoesquerdo {
+    background-color: azure;
+    padding-top: 10px;
+    box-shadow: 3px 4px 1px #615d5d;
+    margin-top: 20px;
+}
+
+/*lado direito*/
+aside#ladodireito {
+    display: block;
+    float: right;
+    width: 600px;
+    margin: 50px 15px 15px 15px;
+}
+
+aside#ladodireito h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+aside#ladodireito img {
+    margin: 0 0 0 30vh;
+    border-radius: 20% 20% 20% 20%;
+    box-shadow: 3px 4px 1px #615d5d;
+    width: auto;
+    height: auto;
+}
+
+div.conteudodireito {
+    background-color: azure;
+    padding-top: 10px;
+    margin-top: 20px;
+    box-shadow: 3px 4px 1px #615d5d;
+}
+
+/*RodaPé*/
+
+footer#rodape {
+    clear: both;
+    background-color: azure;
+    width: 50%;
+    margin: 0 0 0 50vh;
+}
+
+footer#rodape p{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
