@@ -96,3 +96,15 @@ p a:hover {
     background-color: rgba(255, 149, 149,0.3);
     color: rgb(10, 10, 10);
 }
+
+div#video h1{
+    font-family: Arial;
+    font-size: 70px;
+}
+
+div#video iframe {
+    position: relative;
+    left: 400px;
+    border: 10px solid rgba(14, 13, 13,.2);
+    box-shadow: 3px 3px 1px black;
+}
