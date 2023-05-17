@@ -11,6 +11,7 @@ body {
 .menu {
     text-align: center;
     background-color: azure;
+    width: auto;
 }
 
 .menu a, h3{
@@ -26,23 +27,32 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 10vh;
+    font-size: 5vh;
     font-family: magneto;
+    margin: 0% 10% 0% 10%;
 }
 
-#imgprincipal {
-    text-align: center;
+#imgprincipal { 
+    margin: 0%;
+    padding: 0% 43% 0% 43%;
 }
 
 #imgprincipal img {
     border: 4px solid white;
     border-radius: 50%;
     box-shadow: 1px 4px 10px 10px black;
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
+}
+
+div.Texto {
+    margin: 0% 10% 0% 10%; 
 }
 
 p {
     text-align: center;
-    text-align: justify;
     font-size: 30px;
     font-family: Arial;
 }
@@ -62,22 +72,25 @@ ul {
     text-align: justify;
     font-size: 20px;
     font-family: Arial;
+    margin: 0% 10% 0% 20%; 
 }
 
 .imgtexto {
-    text-align: center;
+    margin: 0% 10% 0% 10%; 
 }
 
 .imgtexto img{
     border: 4px solid white;
     border-radius: 50%;
     box-shadow: 1px 4px 10px 10px black;
+    width: 100%;
+    height: auto;
 }
 
 .rodape {
     background-color: azure;
     width: 50%;
-    margin: 0 0 0 50vh;
+    margin: 0% 10% 0% 27%; 
 }
 
 .rodape p{
@@ -99,12 +112,18 @@ p a:hover {
 
 div#video h1{
     font-family: Arial;
-    font-size: 70px;
+    font-size: 70px;  
 }
 
 div#video iframe {
     position: relative;
-    left: 400px;
+    left: 230px;
     border: 10px solid rgba(14, 13, 13,.2);
     box-shadow: 3px 3px 1px black;
+    width: 100%;
+    height: auto;
+}
+
+div#video {
+    margin: 0% 10% 0% 10%; 
 }
