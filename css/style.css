@@ -80,7 +80,8 @@ ul {
 }
 
 .imgtexto {
-    margin: 0% 10% 0% 10%; 
+    margin: 0% 10% 0% 25%;
+    width: 50%;
 }
 
 .imgtexto img{
