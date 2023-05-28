@@ -91,7 +91,7 @@ button {
     border-radius: 15px;
     box-shadow: 1px 1px 1px black;
     font-family: 'Logo', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     background-color: #ecdfcf;
     transition: 0.2s ease-in-out;
 }
