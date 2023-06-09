@@ -78,6 +78,10 @@ h2 {
     font-family: 'Logo', sans-serif;
 }
 
+span {
+    font-weight: bold;
+}
+
 #titudonobra {
     font-family: 'Logo', sans-serif;
     font-size: 40px;

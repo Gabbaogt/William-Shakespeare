@@ -92,6 +92,11 @@ ul {
     height: auto;
 }
 
+.imgtexto figcaption p {
+    font-family: 'Logo', sans-serif;
+    font-size: 20px; 
+}
+
 .rodape {
     background-color: azure;
     width: 50%;
