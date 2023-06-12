@@ -38,6 +38,9 @@ body {
 #imagemmenu img{
     width: 40px;
     height:52px;
+    border-radius: 15px;
+    border: solid 1px black;
+    box-shadow: 4px 4px 10px black;
 }
 
 h1 {
