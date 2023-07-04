@@ -79,6 +79,7 @@ ul {
     margin: 0% 10% 0% 20%; 
 }
 
+
 .imgtexto {
     margin: 0% 10% 0% 25%;
     width: 50%;
@@ -95,6 +96,30 @@ ul {
 .imgtexto figcaption p {
     font-family: 'Logo', sans-serif;
     font-size: 20px; 
+}
+
+#imagemlinke{
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+}
+
+#imagemlinke:hover{
+    cursor:pointer;
+    transform: rotate(359deg);
+    transition: all 1s ease;
+}
+
+#imagemgithub{
+    position: fixed;
+    bottom: 120px;
+    right: 5px;
+}
+
+#imagemgithub:hover{
+    cursor:pointer;
+    transform: rotate(359deg);
+    transition: all 1s ease;
 }
 
 .rodape {
