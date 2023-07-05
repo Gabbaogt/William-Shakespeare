@@ -45,6 +45,31 @@ body {
 }
 
 /*Parte principal do site*/
+
+#imagemlinke{
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+}
+
+#imagemlinke:hover{
+    cursor:pointer;
+    transform: rotate(359deg);
+    transition: all 1s ease;
+}
+
+#imagemgithub{
+    position: fixed;
+    bottom: 120px;
+    right: 5px;
+}
+
+#imagemgithub:hover{
+    cursor:pointer;
+    transform: rotate(359deg);
+    transition: all 1s ease;
+}
+
 main {
     margin: 10% 10% 10% 10%;
 }
