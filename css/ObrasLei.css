@@ -7,7 +7,7 @@
 body {
     background-color: darkgrey;
 }
-
+/*
 .menu h3{
     display: inline-block;
     padding-left: 0%;
@@ -29,6 +29,54 @@ body {
     background-color: rgba(255, 149, 149,0.3);
     color: rgb(10, 10, 10);
 }
+*/
+
+
+.menu h3{
+    display: inline-block;
+    padding-left: 0%;
+    margin: 0%;
+}
+
+.menu {
+    text-align: center;
+    background-color: azure;
+}
+
+.menu .direcionamento, h3{
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+}
+
+.menu .direcionamento:hover {
+    background-color: rgba(255, 149, 149,0.3);
+    color: rgb(10, 10, 10);
+}
+
+.menu h3:hover > #submenu {
+    display: block;
+}
+
+#submenu {
+    background-color: azure;
+    text-align: center;
+    padding: 0;
+    display: none;
+    position: absolute;
+    width: 100px;
+    left: 290px;
+}
+
+#submenu:hover {
+    background-color:rgba(231, 76, 76, 0.5);
+    color: white;
+}
+
+#direcao {
+    color: black;
+}
+
 
 #imagemmenu {
     float: left;
