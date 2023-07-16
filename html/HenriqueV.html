@@ -13,8 +13,17 @@
                 <div id="imagemmenu">
                     <img src="../imagens/heriquev.jpg" alt="Capa Henrique V">
                 </div>
-                <h3><a href="../index.html">História</a></h3>
-                <h3><a href="Obras.html" target="_self">Obras</a></h3>
+                <ul class="nav">
+                    <li class="submenu">
+                        <a href="../index.html">História</a>
+                        <ul class="dropdown">
+                            <li><a href="#resumo">Resumo</a></li>
+                            <li><a href="#botao">DownLoad Obra</a></li>
+                            <li><a href="#video">Video</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Obras.html">Obras</a></li>
+                </ul>
             </nav>
         </header>
         <main class="Texto">
@@ -26,7 +35,7 @@
             <div id="imgprincipal">
                 <img src="../imagens/heriquev.jpg" alt="Capa Henrique V">
             </div>
-            <h2>Resumo</h2>
+            <h2 id="resumo">Resumo</h2>
             <p>
                 A vida de Henry Fifth é a última peça da Tetralogy Lancastrian de Shakespeare, de modo que o público já teria conhecido muitos dos eventos e personagens apresentados na peça.
             </p>
@@ -47,7 +56,7 @@
                 A princesa Katherine, filha do rei Carlos VI e a rainha Isabel, é a única pessoa na França que parece levar Henry a sério. Ela percebe que, porque ela pode se tornar sua rainha - e, portanto, a Rainha da Inglaterra - ela deveria tomar algumas aulas de inglês. O francês vacilante de Henry e o inglês vacilante de Katherine permitem que os dois mostrem sua humildade e graça. No final, Katherine é cortejada pelo rei Henry. O Tratado de Troyes, assinado após a derrota humilhante do francês na Batalha de Agincourt, descreve que Henry e Katherine serão casados, e Henry se tornará o herdeiro de Charles no trono francês, unindo a Inglaterra e a França sob um só rei.
             </p>
             <p id="titudonobra">Click no botão abaixo, para download da obra.</p>
-            <a href="../Downloadsobras/henriquev.pdf" download="henriquev.pdf"><button>Click para download</button></a>
+            <a href="../Downloadsobras/henriquev.pdf" download="henriquev.pdf"><button id="botao">Click para download</button></a>
             <p id="titudonobra">Video sobre o obra:<br>Henrique V</p>
             <div id="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/HErUgIUG23Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

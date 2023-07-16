@@ -13,8 +13,17 @@
                 <div id="imagemmenu">
                     <img src="../imagens/ricardoiii.jpg" alt="Capa  Ricardo III">
                 </div>
-                <h3><a href="../index.html">História</a></h3>
-                <h3><a href="Obras.html" target="_self">Obras</a></h3>
+                <ul class="nav">
+                    <li class="submenu">
+                        <a href="../index.html">História</a>
+                        <ul class="dropdown">
+                            <li><a href="#resumo">Resumo</a></li>
+                            <li><a href="#botao">DownLoad Obra</a></li>
+                            <li><a href="#video">Video</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Obras.html">Obras</a></li>
+                </ul>
             </nav>
         </header>
         <main class="Texto">
@@ -26,7 +35,7 @@
             <div id="imgprincipal">
                 <img src="../imagens/ricardoiii.jpg"  alt="Capa Ricardo III">
             </div>
-            <h2>Resumo</h2>
+            <h2 id="resumo">Resumo</h2>
             <p>
                 Ricardo III é um ator. Um hipócrita. Repare que a raiz é essa mesma: o que é um ator senão um fingidor? Aquele que se traveste de máscaras para convencer a audiência de que ele é Romeu, Don Juan, João Grilo? E é este exercício de cinismo que preenche toda a estrutura dessa deslumbrante e assustadora personagem. Shakespeare opera pelo registro da farsa: ele mostra para a plateia o ator em seu camarim – mostra o nosso Ricardo III se preparando para entrar em cena antes do início do espetáculo quando o espetáculo já começou – e logo na sequência lá está ele em ação, todo paramentado para enganar as personagens em cima do palco através do mais rasteiro melodrama. Ele mente dizendo para nós: vejam como estou mentindo! O espectador não é só cúmplice das tramoias deste tirano vigarista, como é o seu interlocutor direto.
             </p>
@@ -44,7 +53,7 @@
             </p>
 
             <p id="titudonobra">Click no botão abaixo, para download da obra.</p>
-            <a href="../Downloadsobras/ricardoiii.pdf" download="ricardoiii.pdf"><button>Click para download</button></a>
+            <a href="../Downloadsobras/ricardoiii.pdf" download="ricardoiii.pdf"><button id="botao">Click para download</button></a>
             <p id="titudonobra">Video sobre o obra:<br>Titus Andronicus</p>
             <div id="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/V9UWsn4Pz8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

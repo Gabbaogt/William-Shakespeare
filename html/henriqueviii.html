@@ -14,8 +14,17 @@
             <div id="imagemmenu">
                 <img src="../imagens/henriqueviii.jpg" alt="Capa Henrique VIII">
             </div>
-            <h3><a href="../index.html">História</a></h3>
-            <h3><a href="Obras.html" target="_self">Obras</a></h3>
+            <ul class="nav">
+                <li class="submenu">
+                    <a href="../index.html">História</a>
+                    <ul class="dropdown">
+                        <li><a href="#resumo">Resumo</a></li>
+                        <li><a href="#botao">DownLoad Obra</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="Obras.html">Obras</a></li>
+            </ul>
         </nav>
     </header>
     <main class="Texto">
@@ -27,7 +36,7 @@
         <div id="imgprincipal">
             <img src="../imagens/henriqueviii.jpg" alt="Capa Henrique VIII">
         </div>
-        <h2>Resumo</h2>
+        <h2 id="resumo">Resumo</h2>
         <p>
             Henrique VIII foi uma peça escrita por dois: William Shakespeare e John Fletcher, apesar de Fletcher raramente aparecer nas edições brasileiras. O título alternativo da peça era ‘All is True’ (Tudo é verdade), conforme pode ser visto em documentos da época, e o título atual, Henrique VIII, só apareceu em 1623. Acredita-se que tenha sido uma das apresentações da peça, em 1613, que tenha iniciado o incêndio que queimou o teatro Globe. Embora a peça não tenha data definitiva, acredita-se que tenha sido publicada provavelmente após a morte da Rainha Elizabeth em 1603.
         </p>
@@ -41,7 +50,7 @@
             Só direito e justiça é o que vos peço, senhor, e que de mim tenhais piedade. Sou uma pobre mulher, uma estrangeira, que veio ao mundo longe dos domínios que vos são próprios. Não disponho agora nem de juiz imparcial nem de esperança de tratamento equânime da corte. Ai de mim! Em que posso, acaso, tem-vos ofendido, milorde? Que motivo de desgosto vos deu minha conduta, para pensardes em mandar-me embora, de vossa graça e afeto me privando? O céu é testemunha de que sempre vos fui esposa humilde e verdadeira; sempre me conformei ao vosso alvitre; com medo sempre, até, de despertar-vos desgosto, busquei sempre acomodar-me ao menor gesto vosso, alegre ou triste, conforme vos notasse. Em que momento tentei opor-me a qualquer ordem vossa, sem que fizesse minha? A qual dos vossos amigos por amar não me esforcei, muito embora na conta de inimigo sempre o tivesse tido? Ou a que pessoa de minhas relações eu continuei revelando afeição, quando ela vossa cólera provocasse? Na mesma hora não lhe fazia ver que passaria daí por diante a ser meu inimigo? Recordai-vos, senhor, de que durante mais de vinte anos, obediente sempre, hei sido vossa esposa e tive a bênção de vos dar muitos filhos. Se no curso desse tempo puderdes um só fato mencionar e provar contra minha honra, minha fidelidade, meu afeto, o respeito que devo a vossa sacra pessoa: em nome, sim, de Deus, lançai-me de vossa vista e que o mais negro opróbrio venha fechar-me as portas, entregando-me ao rigor mais severo da justiça. Escutai-me, senhor: o soberano vosso pai sempre foi considerado um príncipe prudente, de excelente julgamento e de muita perspicácia. Ferdinando, meu pai e Rei da Espanha, passava pelo príncipe mais sábio daquela terra, desde muitos anos, sendo fora de dúvida, portanto, que em cada reino eles reunido houvessem um conselho de sábios, que julgaram legal nossa união, depois de haverem bem estudado o assunto. Por tudo isso, senhor, humildemente vos suplico que me poupeis até que eu tenha tempo de me comunicar com meus amigos de Espanha e lhes pedir que me aconselhem. Mas em nome de Deus, caso contrário, também nisso se faça o que quiserdes.
         </p>
         <p id="titudonobra">Click no botão abaixo, para download da obra.</p>
-        <a href="../Downloadsobras/oitavo.pdf" download="oitavo.pdf"><button>Click para download</button></a>
+        <a href="../Downloadsobras/oitavo.pdf" download="oitavo.pdf"><button id="botao">Click para download</button></a>
         <p id="titudonobra">Video sobre o obra:<br>Henrique VIII</p>
         <div id="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/rbwN-0JL4xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -14,13 +14,17 @@
             <div id="imagemmenu">
                 <img src="../imagens/tituandonicus.jpg" alt="Capa Titus Andronicus">
             </div>
-            <h3>
-                <a href="../index.html" class="direcionamento">História</a>
-                <ul id="submenu">
-                    <li><a href="#titudonobra" id="direcao">Video</a></li>
-                </ul>
-            </h3>
-            <h3><a href="Obras.html" target="_self" class="direcionamento">Obras</a></h3>
+            <ul class="nav">
+                <li class="submenu">
+                    <a href="../index.html">História</a>
+                    <ul class="dropdown">
+                        <li><a href="#resumo">Resumo</a></li>
+                        <li><a href="#botao">DownLoad Obra</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="Obras.html">Obras</a></li>
+            </ul>
         </nav>
     </header>
     <main class="Texto">
@@ -32,7 +36,7 @@
         <div id="imgprincipal">
             <img src="../imagens/tituandonicus.jpg" alt="Capa Titus Andronicus">
         </div>
-        <h2>Resumo</h2>
+        <h2 id="resumo">Resumo</h2>
         <p>
             Na frente do Capitólio em Roma, encarando uma multidão de Tribunas e Senadores, Saturninus, primeiro - o filho nascido do Imperador romano falecido, pleiteia o seu direito para ser o sucessor do pai dele. O Bassianus o irmão dele também lança a sua reivindicação.
         </p>
@@ -60,10 +64,10 @@
             Aaron é condenado para ser meio enterrado e é partido para sofrer na morte, com a fome.
         </p>
         <p id="titudonobra">Click no botão abaixo, para download da obra.</p>
-        <a href="../Downloadsobras/andronico.pdf" download="andronico.pdf"><button>Click para download</button></a>
+        <a href="../Downloadsobras/andronico.pdf" download="andronico.pdf"><button id="botao">Click para download</button></a>
         <p id="titudonobra">Video sobre o obra:<br>Titus Andronicus</p>
         <div id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-O10vFrN4X8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-O10vFrN4X8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
         </div>
         <br>
         <p id="titudonobra"> Fontes:

@@ -14,8 +14,17 @@
             <div id="imagemmenu">
                 <img src="../imagens/Ricardoll.jpg" alt="Capa Ricardo II">
             </div>
-            <h3><a href="../index.html">História</a></h3>
-            <h3><a href="Obras.html" target="_self">Obras</a></h3>
+            <ul class="nav">
+                <li class="submenu">
+                    <a href="../index.html">História</a>
+                    <ul class="dropdown">
+                        <li><a href="#resumo">Resumo</a></li>
+                        <li><a href="#botao">DownLoad Obra</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="Obras.html">Obras</a></li>
+            </ul>
         </nav>
     </header>
     <main class="Texto">
@@ -27,7 +36,7 @@
         <div id="imgprincipal">
             <img src="../imagens/Ricardoll.jpg" alt="Capa Ricardo II">
         </div>
-        <h2>Resumo</h2>
+        <h2 id="resumo">Resumo</h2>
         <p>
             “Rei Ricardo – Daqui por diante, bela alma, aprende a ver em nosso estado primitivo somente um feliz sonho. Ora, despertos, vemos a verdade do que somos de fato.”
         </p>
@@ -62,7 +71,7 @@
             Rei Ricardo – Malgastei todo meu tempo; o tempo ora me gasta, porque me vejo transformado agora no relógio do tempo. Os pensamentos são minutos, que com suspiros batem no quadrante dos olhos, onde se acha sempre meu dedo, à guisa de ponteiro para marcar as horas e limpá-las de lágrimas.
         </p>
         <p id="titudonobra">Click no botão abaixo, para download da obra.</p>
-        <a href="../Downloadsobras/ricardo2.pdf" download="ricardo2.pdf"><button>Click para download</button></a>
+        <a href="../Downloadsobras/ricardo2.pdf" download="ricardo2.pdf"><button id="botao">Click para download</button></a>
         <p id="titudonobra">Video sobre o obra:<br>Ricardo II</p>
         <div id="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/jAkeM90LeJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

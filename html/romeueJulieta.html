@@ -14,8 +14,17 @@
             <div id="imagemmenu">
                 <img src="../imagens/RomeueJulieta.jpg" alt="Capa Romeu e Julieta">
             </div>
-            <h3><a href="../index.html">História</a></h3>
-            <h3><a href="Obras.html" target="_self">Obras</a></h3>
+            <ul class="nav">
+                <li class="submenu">
+                    <a href="../index.html">História</a>
+                    <ul class="dropdown">
+                        <li><a href="#resumo">Resumo</a></li>
+                        <li><a href="#botao">DownLoad Obra</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="Obras.html">Obras</a></li>
+            </ul>
         </nav>
     </header>
     <main class="Texto">
@@ -27,7 +36,7 @@
         <div id="imgprincipal">
             <img src="../imagens/RomeueJulieta.jpg" alt="Capa Romeu e Julieta">
         </div>
-        <h2>Resumo</h2>
+        <h2 id="resumo">Resumo</h2>
         <p>
             Verona é o palco do conflito histórico entre duas famílias tradicionais: os Montecchio e os Capuleto. Por um infortúnio do destino, Romeu, filho único da família Montecchio, e Julieta, filha única da família Capuleto, conhecem-se durante um baile de máscaras e apaixonam-se perdidamente.
         </p>
@@ -69,7 +78,7 @@
             A história de amor é trágica, o único consolo que resta ao leitor é saber que, após as catastróficas mortes dos protagonistas, as famílias Montecchio e Capuleto decidem fazer um acordo de paz.
         </p>
         <p id="titudonobra">Click no botão abaixo, para download da obra.</p>
-        <a href="../Downloadsobras/romeuejulieta.pdf" download="romeuejulieta.pdf"><button>Click para download</button></a>
+        <a href="../Downloadsobras/romeuejulieta.pdf" download="romeuejulieta.pdf"><button id="botao">Click para download</button></a>
         <p id="titudonobra">Video sobre o obra:<br>Romeu e Julieta</p>
         <div id="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/vcZ37UpM6IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

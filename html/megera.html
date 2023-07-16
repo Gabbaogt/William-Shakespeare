@@ -14,8 +14,17 @@
             <div id="imagemmenu">
                 <img src="../imagens/omegadomada.jpg" alt="Capa Titus Andronicus">
             </div>
-            <h3><a href="../index.html">História</a></h3>
-            <h3><a href="Obras.html" target="_self">Obras</a></h3>
+            <ul class="nav">
+                <li class="submenu">
+                    <a href="../index.html">História</a>
+                    <ul class="dropdown">
+                        <li><a href="#resumo">Resumo</a></li>
+                        <li><a href="#botao">DownLoad Obra</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="Obras.html">Obras</a></li>
+            </ul>
         </nav>
     </header>
     <main class="Texto">
@@ -27,7 +36,7 @@
         <div id="imgprincipal" role="img">
             <img src="../imagens/omegadomada.jpg" alt="Capa Titus Andronicus">
         </div>
-        <h2>Resumo</h2>
+        <h2 id="resumo">Resumo</h2>
         <p>
             A Megera Domada, uma das primeiras comédias de Shakespeare, escrita por volta de 1594, se passa na cidade de Pádua, situada no nordeste da Itália, e narra a história de Catarina, uma das filhas do senhor Batista Minol. Por ser uma comédia que retrata a sociedade e os relacionamentos, temos o efeito da Catarse, que já falamos aqui pelo Teatro em Escala: rimos, gargalhamos mas paramos pra pensar sobre os assuntos.
         </p>
@@ -65,7 +74,7 @@
             Catarina, por sua vez, é uma jovem muito temperamental, conhecida por botar todos os pretendentes para correr, a ponto de ganhar dos rapazes o apelido de “Fera”. Desesperado para quitar sua dívida, Petruchio aceita a sugestão de fazer a corte à Catarina. Finge ser submisso e pateta, deixando que ela o manipule à vontade. Com o tempo, Catarina começa a perceber as qualidades do marido e se apaixona por ele. Petruchio também se apaixona, mas nenhum dos dois dá o braço a torcer e vivem às turras.
         </p>
         <p id="titudonobra">Click no botão abaixo, para download da obra.</p>
-        <a href="../Downloadsobras/megera.pdf" download="megera.pdf"><button>Click para download</button></a>
+        <a href="../Downloadsobras/megera.pdf" download="megera.pdf"><button id="botao">Click para download</button></a>
         <p id="titudonobra">Video sobre o obra:<br>A Megera Domada</p>
         <div id="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/sPT-yETSF5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

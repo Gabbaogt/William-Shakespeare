@@ -125,6 +125,7 @@ p {
 }
 
 #rest{
+    background: none;
     position: fixed;
     bottom: 210px;
     right: 30px;

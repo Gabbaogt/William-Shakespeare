@@ -14,8 +14,17 @@
             <div id="imagemmenu">
                 <img src="../imagens/acomediadoserros.jpg" alt="Capa A Comédia dos Erros">
             </div>
-            <h3><a href="../index.html">História</a></h3>
-            <h3><a href="Obras.html" target="_self">Obras</a></h3>
+            <ul class="nav">
+                <li class="submenu">
+                    <a href="../index.html">História</a>
+                    <ul class="dropdown">
+                        <li><a href="#resumo">Resumo</a></li>
+                        <li><a href="#botao">DownLoad Obra</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                </li>
+                <li><a href="Obras.html">Obras</a></li>
+            </ul>
         </nav>
     </header>
     <main class="Texto">
@@ -23,11 +32,11 @@
             <a href="https://github.com/Gabbaogt" target="_blank"><img src="../imagens/logogithub100.png" id="imagemgithub"></a>
             <a href="https://www.linkedin.com/in/gabrielborgesaraujo/" target="_blank"><img src="../imagens/logolinke100.png" id="imagemlinke"></a>
         </nav>
-        <h1>Titus <br> Andronicus</h1>
+        <h1>A Comédia <br> dos <br> Erros</h1>
         <div id="imgprincipal">
             <img src="../imagens/acomediadoserros.jpg" alt="Capa A Comédia dos Erros">
         </div>
-        <h2>Resumo</h2>
+        <h2 id="resumo">Resumo</h2>
             <p>
                 <span>Drômio</span> – Mestre, se fordes cear e houver probabilidade de tomardes sopa, muni-vos de uma colher comprida
             </p>
@@ -134,10 +143,10 @@
                 Assim, um livro com um humor leve, que requer um pouco de atenção para não se perder no enredo, mas que vale muito a pena a leitura.
             </p>
         <p id="titudonobra">Click no botão abaixo, para download da obra.</p>
-        <a href="../Downloadsobras/erros.pdf" download="erros.pdf"><button>Click para download</button></a>
+        <a href="../Downloadsobras/erros.pdf" download="erros.pdf"><button id="botao">Click para download</button></a>
         <p id="titudonobra">Video sobre o obra:<br>A Comédia dos Erros</p>
         <div id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HFx5TR-yBSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HFx5TR-yBSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
         </div>
         <br>
         <p id="titudonobra"> Fontes:
