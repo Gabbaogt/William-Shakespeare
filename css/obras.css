@@ -49,6 +49,19 @@ body {
 
 /*Parte principal do site*/
 
+#rest{
+    background: none;
+    position: fixed;
+    bottom: 210px;
+    right: 30px;
+}
+
+#rest:hover{
+    cursor:pointer;
+    transform: rotate(359deg);
+    transition: all 1s ease;
+}
+
 #imagemlinke{
     position: fixed;
     bottom: 30px;
@@ -124,8 +137,8 @@ main .cartao-obra:hover {
 footer#rodape {
     clear: both;
     background-color: azure;
-    margin: 0 10% 0 27%;
-    width: 50%;
+    margin: 0% 10% 0% 0%;
+    width: 100%;
     height: auto;
 }
 

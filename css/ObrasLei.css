@@ -3,10 +3,14 @@
     font-family: 'Logo';
     src: url('../html/PermanentMarker-Regular.ttf')
 }
+/*Corpo do Site*/
 
 body {
     background-color: darkgrey;
 }
+
+/*Parte de navegação entre abas*/
+
 .menu {
     background-color: azure;
 }
@@ -63,6 +67,7 @@ body {
     display: block;
 }
 
+/* Parte principal do Site o Desenvolvimento*/
 
 #imagemmenu {
     float: left;
@@ -99,6 +104,18 @@ h1 {
     height: auto;
 }
 
+#rest{
+    background: none;
+    position: fixed;
+    bottom: 210px;
+    right: 30px;
+}
+
+#rest:hover{
+    cursor:pointer;
+    transform: rotate(359deg);
+    transition: all 1s ease;
+}
 
 #imagemlinke{
     position: fixed;
@@ -219,11 +236,12 @@ ul a:hover {
     color: blue;
 }
 
+/*Rodapé do Site*/
 
 .rodape {
     background-color: azure;
-    width: 50%;
-    margin: 0% 10% 0% 27%; 
+    width: 100%;
+    margin: 0% 10% 0% 0%; 
 }
 
 .rodape p{

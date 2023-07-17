@@ -4,9 +4,13 @@
     src: url('../html/PermanentMarker-Regular.ttf')
 }
 
+/*Corpo do Site*/
+
 body {
     background-color: darkgrey;
 }
+
+/*Área de Navegação entre abas do Site*/
 
 .menu .nav {
     background-color: azure;
@@ -53,11 +57,13 @@ body {
     display: block;
 }
 
+
+/*Área Principal do Site*/
 h1 {
     text-align: center;
     font-family: 'Logo', sans-serif;
     font-size: 5vh;
-    margin: 5% 10% 0% 10%;
+    margin: 0% 10% 0% 10%;
 }
 
 #imgprincipal { 
@@ -129,7 +135,6 @@ p {
     position: fixed;
     bottom: 210px;
     right: 30px;
-    border-radius: 20%;
 }
 
 #rest:hover{
@@ -160,18 +165,6 @@ p {
     cursor:pointer;
     transform: rotate(359deg);
     transition: all 1s ease;
-}
-
-.rodape {
-    background-color: azure;
-    width: 50%;
-    margin: 0% 10% 0% 27%; 
-}
-
-.rodape p{
-    text-align: center;
-    font-size: 30px;
-    font-family: cursive;
 }
 
 p a {
@@ -211,4 +204,17 @@ div#video {
     margin:0 auto;
     width: 40%;
     height: auto; 
+}
+
+/*Rodapé do Site*/
+.rodape {
+    background-color: azure;
+    width: 100%;
+    margin: 0% 10% 0% 0%; 
+}
+
+.rodape p{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
 }
