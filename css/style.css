@@ -13,15 +13,18 @@ body {
 /*Área de Navegação entre abas do Site*/
 
 .menu .nav {
+    border: solid black 4px;
     background-color: azure;
     text-align:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .menu .nav li{
-    display: inline-block;
     margin: 0px;
-    margin-right: 10px;
-    padding: 13px;
+    padding: 20px;
 }
 
 .menu .nav li a {
@@ -43,6 +46,7 @@ body {
     border: solid black 4px;
     position: absolute;
     top: 50px;
+    left: 0px;
     padding: 5px;
     min-width: 250px;
     border-radius: 0px 10px 10px 10px;
@@ -54,7 +58,7 @@ body {
 }
 
 .menu .nav .dropdown li{
-    display: block;
+    display: block;    
 }
 
 
