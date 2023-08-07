@@ -18,11 +18,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 0px;
 }
 
 .menu .nav li{
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
     list-style: none;
 }
 
@@ -32,8 +33,7 @@ body {
     font-size: 25px;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    margin: 100px;
-}
+ }
 
 .menu .nav li:hover {
     background-color: rgba(231, 76, 76, 0.5);
@@ -43,8 +43,7 @@ body {
     height: 70px;
     display: flex;
     float: left;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
 }
 
 #imagemmenu img{
@@ -95,7 +94,7 @@ body {
 }
 
 main {
-    margin: 10% 10% 10% 10%;
+    margin: 5% 10% 10% 10%;
 }
 
 h1 {
@@ -145,7 +144,8 @@ main .cartao-obra:hover {
 footer#rodape {
     clear: both;
     background-color: azure;
-    margin: 0% 10% 0% 0%;
+    border: solid black 4px;
+    margin: 5% 10% 0% 0%;
     width: 100%;
     height: auto;
 }
