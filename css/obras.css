@@ -57,10 +57,11 @@ body {
 /*Parte principal do site*/
 
 #rest{
+    width: 40px;
     background: none;
     position: fixed;
-    bottom: 210px;
-    right: 30px;
+    bottom: 130px;
+    right: 11px;
 }
 
 #rest:hover{
@@ -70,6 +71,7 @@ body {
 }
 
 #imagemlinke{
+    width: 50px;
     position: fixed;
     bottom: 30px;
     right: 5px;
@@ -82,8 +84,9 @@ body {
 }
 
 #imagemgithub{
+    width: 50px;
     position: fixed;
-    bottom: 120px;
+    bottom: 80px;
     right: 5px;
 }
 

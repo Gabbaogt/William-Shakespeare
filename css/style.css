@@ -85,10 +85,6 @@ h1 {
     height: auto;
 }
 
-div.Texto {
-    margin: 0% 10% 0% 10%; 
-}
-
 p {
     text-align: center;
     font-size: 30px;
@@ -96,7 +92,10 @@ p {
 }
 
 .Texto{
-    margin: 0 50vh 50vh 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .Texto h2{
@@ -106,19 +105,21 @@ p {
 }
 
 .lista ul, li{
-    text-align: center;
-    text-align: justify;
     font-size: 20px;
     font-weight: bold;
     font-family: Verdana;
-    margin: 0% 10% 0% 20%; 
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
 .imgtexto {
-    margin: 0% 10% 0% 25%;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .imgtexto img{
@@ -135,10 +136,11 @@ p {
 }
 
 #rest{
+    width: 40px;
     background: none;
     position: fixed;
-    bottom: 210px;
-    right: 30px;
+    bottom: 130px;
+    right: 11px;
 }
 
 #rest:hover{
@@ -148,6 +150,7 @@ p {
 }
 
 #imagemlinke{
+    width: 50px;
     position: fixed;
     bottom: 30px;
     right: 5px;
@@ -160,8 +163,9 @@ p {
 }
 
 #imagemgithub{
+    width: 50px;
     position: fixed;
-    bottom: 120px;
+    bottom: 80px;
     right: 5px;
 }
 
@@ -181,6 +185,10 @@ p a {
 p a:hover {
     background-color: rgba(255, 149, 149,0.3);
     color: rgb(10, 10, 10);
+}
+
+#fonte {
+    font-weight: bold;
 }
 
 div#video h1{
