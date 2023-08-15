@@ -14,6 +14,8 @@ body {
 .menu {
     background-color: azure;
     border: solid black 4px;
+    border-radius: 50px;
+    box-shadow: 4px 2px 1px black;
 }
 .menu .nav {
     text-align:center; 
@@ -254,6 +256,8 @@ ul a:hover {
 .rodape {
     background-color: azure;
     border: solid black 4px;
+    border-radius: 50px;
+    box-shadow: 4px 2px 1px black;
     width: 100%;
     margin: 5% 10% 0% 0%; 
 }
@@ -261,5 +265,5 @@ ul a:hover {
 .rodape p{
     text-align: center;
     font-size: 30px;
-    font-family: cursive;
+    font-family: Arial, sans-serif;
 }

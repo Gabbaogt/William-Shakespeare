@@ -14,6 +14,8 @@ body {
 
 .menu .nav {
     border: solid black 4px;
+    border-radius: 50px;
+    box-shadow: 4px 2px 1px black;
     background-color: azure;
     text-align:center;
     display: flex;
@@ -222,12 +224,14 @@ div#video {
 .rodape {
     background-color: azure;
     border: solid black 4px;
+    border-radius: 50px;
+    box-shadow: 4px 2px 1px black;
     width: 100%;
     margin: 5% 10% 0% 0%; 
 }
 
 .rodape p{
+    font-family: Arial, sans-serif;
     text-align: center;
     font-size: 30px;
-    font-family: cursive;
 }

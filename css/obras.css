@@ -11,6 +11,8 @@ body {
 /*Área de menu do site*/
 .menu{
     border: solid black 4px;
+    border-radius: 50px;
+    box-shadow: 4px 2px 1px black;
     background-color: azure;
 }
 .menu .nav {
@@ -148,6 +150,8 @@ footer#rodape {
     clear: both;
     background-color: azure;
     border: solid black 4px;
+    border-radius: 50px;
+    box-shadow: 4px 2px 1px black;
     margin: 5% 10% 0% 0%;
     width: 100%;
     height: auto;
@@ -156,5 +160,5 @@ footer#rodape {
 footer#rodape p{
     text-align: center;
     font-size: 30px;
-    font-family: cursive;
+    font-family: Arial, sans-serif;
 }
