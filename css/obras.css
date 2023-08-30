@@ -29,7 +29,7 @@ body {
     list-style: none;
 }
 
-.menu .nav li a {
+.menu .nav a li {
     text-decoration: none;
     color: black;
     font-size: 25px;
@@ -51,6 +51,7 @@ body {
 #imagemmenu img{
     width: 50px;
     height:70px;
+    margin-left: 10px;
     border-radius: 15px;
     border: solid 1px black;
     box-shadow: 4px 4px 10px black;
@@ -102,40 +103,53 @@ main {
     margin: 5% 10% 10% 10%;
 }
 
-h1 {
+a {
+    text-decoration: none;
+}
+
+a h2 {
     text-align: center;
     font-size: 30px;
     font-family: 'Logo', sans-serif;
+    color: black;
 }
+
 
 main .listagem-obra {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
     gap: 80px;
-    justify-content: center;
+    
 }
 
 main .cartao-obra {
     background-color: azure;
     width: 200px;
+    height: 450px;
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     border-radius: 15px;
-    box-shadow: 10px 4px 8px black;
+    box-shadow: 5px 8px 8px black;
+    border: 6px solid black;
     transition: 0.2s ease-in-out;
 }
 
 main .cartao-obra img {
     box-shadow: 4px 4px 4px black;
     border-radius: 15px;
+    width: 200px;
+    height: 300px;
 }
 
 main .cartao-obra h2 {
     font-family: 'Logo', sans-serif;
     text-align: center;
+    margin-top: 0px;
 }
 
 main .cartao-obra:hover {
