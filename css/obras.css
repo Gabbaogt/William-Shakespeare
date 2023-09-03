@@ -127,7 +127,7 @@ main .listagem-obra {
 main .cartao-obra {
     background-color: azure;
     width: 200px;
-    height: 450px;
+    height: 500px;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -174,5 +174,5 @@ footer#rodape {
 footer#rodape p{
     text-align: center;
     font-size: 30px;
-    font-family: Arial, sans-serif;
+    font-family: 'Logo', sans-serif;
 }
